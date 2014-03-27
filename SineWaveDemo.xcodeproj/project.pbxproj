@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8A974018DAE5430016B556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8A973F18DAE5430016B556 /* Foundation.framework */; };
+		6B8A974218DAE5430016B556 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8A974118DAE5430016B556 /* CoreGraphics.framework */; };
+		6B8A974418DAE5430016B556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8A974318DAE5430016B556 /* UIKit.framework */; };
+		6B8A974A18DAE5430016B556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8A974818DAE5430016B556 /* InfoPlist.strings */; };
+		6B8A974C18DAE5430016B556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A974B18DAE5430016B556 /* main.m */; };
+		6B8A975018DAE5430016B556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A974F18DAE5430016B556 /* AppDelegate.m */; };
+		6B8A975218DAE5440016B556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8A975118DAE5440016B556 /* Images.xcassets */; };
+		6B8A975918DAE5440016B556 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8A975818DAE5440016B556 /* XCTest.framework */; };
+		6B8A975A18DAE5440016B556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8A973F18DAE5430016B556 /* Foundation.framework */; };
+		6B8A975B18DAE5440016B556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8A974318DAE5430016B556 /* UIKit.framework */; };
+		6B8A976318DAE5440016B556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8A976118DAE5440016B556 /* InfoPlist.strings */; };
+		6B8A976518DAE5440016B556 /* SineWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A976418DAE5440016B556 /* SineWaveDemoTests.m */; };
+		6B8A977018DAE5630016B556 /* SineWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A976F18DAE5630016B556 /* SineWaveViewController.m */; };
+		6B8A977218DAE5DB0016B556 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8A977118DAE5DB0016B556 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B8A975C18DAE5440016B556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8A973418DAE5430016B556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8A973B18DAE5430016B556;
+			remoteInfo = SineWaveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B8A973C18DAE5430016B556 /* SineWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SineWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8A973F18DAE5430016B556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B8A974118DAE5430016B556 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B8A974318DAE5430016B556 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B8A974718DAE5430016B556 /* SineWaveDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SineWaveDemo-Info.plist"; sourceTree = "<group>"; };
+		6B8A974918DAE5430016B556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B8A974B18DAE5430016B556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B8A974D18DAE5430016B556 /* SineWaveDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SineWaveDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6B8A974E18DAE5430016B556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B8A974F18DAE5430016B556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B8A975118DAE5440016B556 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B8A975718DAE5440016B556 /* SineWaveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SineWaveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8A975818DAE5440016B556 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B8A976018DAE5440016B556 /* SineWaveDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SineWaveDemoTests-Info.plist"; sourceTree = "<group>"; };
+		6B8A976218DAE5440016B556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B8A976418DAE5440016B556 /* SineWaveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SineWaveDemoTests.m; sourceTree = "<group>"; };
+		6B8A976E18DAE5630016B556 /* SineWaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SineWaveViewController.h; sourceTree = "<group>"; };
+		6B8A976F18DAE5630016B556 /* SineWaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SineWaveViewController.m; sourceTree = "<group>"; };
+		6B8A977118DAE5DB0016B556 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8A973918DAE5430016B556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8A977218DAE5DB0016B556 /* AudioToolbox.framework in Frameworks */,
+				6B8A974218DAE5430016B556 /* CoreGraphics.framework in Frameworks */,
+				6B8A974418DAE5430016B556 /* UIKit.framework in Frameworks */,
+				6B8A974018DAE5430016B556 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8A975418DAE5440016B556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8A975918DAE5440016B556 /* XCTest.framework in Frameworks */,
+				6B8A975B18DAE5440016B556 /* UIKit.framework in Frameworks */,
+				6B8A975A18DAE5440016B556 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8A973318DAE5430016B556 = {
+			isa = PBXGroup;
+			children = (
+				6B8A974518DAE5430016B556 /* SineWaveDemo */,
+				6B8A975E18DAE5440016B556 /* SineWaveDemoTests */,
+				6B8A973E18DAE5430016B556 /* Frameworks */,
+				6B8A973D18DAE5430016B556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8A973D18DAE5430016B556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A973C18DAE5430016B556 /* SineWaveDemo.app */,
+				6B8A975718DAE5440016B556 /* SineWaveDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8A973E18DAE5430016B556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A977118DAE5DB0016B556 /* AudioToolbox.framework */,
+				6B8A973F18DAE5430016B556 /* Foundation.framework */,
+				6B8A974118DAE5430016B556 /* CoreGraphics.framework */,
+				6B8A974318DAE5430016B556 /* UIKit.framework */,
+				6B8A975818DAE5440016B556 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8A974518DAE5430016B556 /* SineWaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A974E18DAE5430016B556 /* AppDelegate.h */,
+				6B8A974F18DAE5430016B556 /* AppDelegate.m */,
+				6B8A976E18DAE5630016B556 /* SineWaveViewController.h */,
+				6B8A976F18DAE5630016B556 /* SineWaveViewController.m */,
+				6B8A975118DAE5440016B556 /* Images.xcassets */,
+				6B8A974618DAE5430016B556 /* Supporting Files */,
+			);
+			path = SineWaveDemo;
+			sourceTree = "<group>";
+		};
+		6B8A974618DAE5430016B556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A974718DAE5430016B556 /* SineWaveDemo-Info.plist */,
+				6B8A974818DAE5430016B556 /* InfoPlist.strings */,
+				6B8A974B18DAE5430016B556 /* main.m */,
+				6B8A974D18DAE5430016B556 /* SineWaveDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B8A975E18DAE5440016B556 /* SineWaveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A976418DAE5440016B556 /* SineWaveDemoTests.m */,
+				6B8A975F18DAE5440016B556 /* Supporting Files */,
+			);
+			path = SineWaveDemoTests;
+			sourceTree = "<group>";
+		};
+		6B8A975F18DAE5440016B556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A976018DAE5440016B556 /* SineWaveDemoTests-Info.plist */,
+				6B8A976118DAE5440016B556 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8A973B18DAE5430016B556 /* SineWaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8A976818DAE5440016B556 /* Build configuration list for PBXNativeTarget "SineWaveDemo" */;
+			buildPhases = (
+				6B8A973818DAE5430016B556 /* Sources */,
+				6B8A973918DAE5430016B556 /* Frameworks */,
+				6B8A973A18DAE5430016B556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SineWaveDemo;
+			productName = SineWaveDemo;
+			productReference = 6B8A973C18DAE5430016B556 /* SineWaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8A975618DAE5440016B556 /* SineWaveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8A976B18DAE5440016B556 /* Build configuration list for PBXNativeTarget "SineWaveDemoTests" */;
+			buildPhases = (
+				6B8A975318DAE5440016B556 /* Sources */,
+				6B8A975418DAE5440016B556 /* Frameworks */,
+				6B8A975518DAE5440016B556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8A975D18DAE5440016B556 /* PBXTargetDependency */,
+			);
+			name = SineWaveDemoTests;
+			productName = SineWaveDemoTests;
+			productReference = 6B8A975718DAE5440016B556 /* SineWaveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8A973418DAE5430016B556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					6B8A975618DAE5440016B556 = {
+						TestTargetID = 6B8A973B18DAE5430016B556;
+					};
+				};
+			};
+			buildConfigurationList = 6B8A973718DAE5430016B556 /* Build configuration list for PBXProject "SineWaveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B8A973318DAE5430016B556;
+			productRefGroup = 6B8A973D18DAE5430016B556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8A973B18DAE5430016B556 /* SineWaveDemo */,
+				6B8A975618DAE5440016B556 /* SineWaveDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8A973A18DAE5430016B556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8A974A18DAE5430016B556 /* InfoPlist.strings in Resources */,
+				6B8A975218DAE5440016B556 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8A975518DAE5440016B556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8A976318DAE5440016B556 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8A973818DAE5430016B556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8A975018DAE5430016B556 /* AppDelegate.m in Sources */,
+				6B8A974C18DAE5430016B556 /* main.m in Sources */,
+				6B8A977018DAE5630016B556 /* SineWaveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8A975318DAE5440016B556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8A976518DAE5440016B556 /* SineWaveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B8A975D18DAE5440016B556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B8A973B18DAE5430016B556 /* SineWaveDemo */;
+			targetProxy = 6B8A975C18DAE5440016B556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B8A974818DAE5430016B556 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8A974918DAE5430016B556 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B8A976118DAE5440016B556 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8A976218DAE5440016B556 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8A976618DAE5440016B556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B8A976718DAE5440016B556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8A976918DAE5440016B556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					"armv7,armv7s",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JUNBO XIE (F648WK3EWP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JUNBO XIE (F648WK3EWP)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SineWaveDemo/SineWaveDemo-Prefix.pch";
+				INFOPLIST_FILE = "SineWaveDemo/SineWaveDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B55136A0-0478-404C-8270-2A50EDD6B761";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B8A976A18DAE5440016B556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					"armv7,armv7s",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Savvy Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Savvy Technology Co., Ltd";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SineWaveDemo/SineWaveDemo-Prefix.pch";
+				INFOPLIST_FILE = "SineWaveDemo/SineWaveDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "987DEC65-66F3-49E6-A2C0-25998D38B093";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6B8A976C18DAE5440016B556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SineWaveDemo.app/SineWaveDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SineWaveDemo/SineWaveDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SineWaveDemoTests/SineWaveDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6B8A976D18DAE5440016B556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SineWaveDemo.app/SineWaveDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SineWaveDemo/SineWaveDemo-Prefix.pch";
+				INFOPLIST_FILE = "SineWaveDemoTests/SineWaveDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8A973718DAE5430016B556 /* Build configuration list for PBXProject "SineWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8A976618DAE5440016B556 /* Debug */,
+				6B8A976718DAE5440016B556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8A976818DAE5440016B556 /* Build configuration list for PBXNativeTarget "SineWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8A976918DAE5440016B556 /* Debug */,
+				6B8A976A18DAE5440016B556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B8A976B18DAE5440016B556 /* Build configuration list for PBXNativeTarget "SineWaveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8A976C18DAE5440016B556 /* Debug */,
+				6B8A976D18DAE5440016B556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8A973418DAE5430016B556 /* Project object */;
+}
