@@ -2,6 +2,7 @@ SineWaveDemo
 ============
 
 一个简单的正弦波发生器
+
 OSStatus RenderTone(
                     void *inRefCon,
                     AudioUnitRenderActionFlags 	*ioActionFlags,
